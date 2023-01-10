@@ -1,0 +1,17 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx cucumber-js --publish-quiet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "@faker-js/faker": "^7.6.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3"
+  }
+}
